@@ -18,6 +18,8 @@ io.on('connection', function (socket) {
 	
   // Listen for a "newuser" message
   socket.on('newuser', (data) => {
+
+    
     // Transmit a message to everyone except the sender
     socket.broadcast.emit('newuser', data)
 

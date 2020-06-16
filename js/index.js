@@ -32,5 +32,5 @@ socket.on('chatmsg', (data) => {
 	const newMsg = document.createElement('li')
 	$msgList.appendChild(newMsg)
 
-	newMsg.textContent = data.msg
+	newMsg.textContent = (`${newuser} ----> ${data.msg}`)
 })
