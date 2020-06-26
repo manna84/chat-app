@@ -10,26 +10,25 @@
 
 body { 
 	font: 13px Helvetica, Arial;
+	background-color: coral;
 }
 	
 form {
-	background: #000; 
+	background: rgb(240, 241, 174); 
 	padding: 3px; 
-	position: fixed; 
 	bottom: 0; 
-	width: 100%; 
 }
 	  
 form input { 
-	border: 0; 
+	border: none; 
 	padding: 10px;
-	width: 90%; 
 	margin-right: 0.5%; 
+	width: 80%;
 }
 	  
 form button { 
-	width: 9%; 
-	background: rgb(130, 224, 255); 
+	width: 20%; 
+	background: rgb(124, 243, 130); 
 	border: none; 
 	padding: 10px;
 }
@@ -47,3 +46,22 @@ form button {
 #messages li:nth-child(odd) { 
 	background: #eee; 
 }
+
+#sendMsg {
+	display: flex;
+}
+
+
+.app-section {
+	width: 40%;
+	background-color: rgb(120, 80, 231);
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	padding: 3%;
+	color: #ffffff;
+	text-align: center;
+}
+
