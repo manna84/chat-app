@@ -21,7 +21,7 @@ io.on('connection', function (socket) {
 
     
     // Transmit a message to everyone except the sender
-    socket.broadcast.emit('newuser', data)
+    socket.broadcast.emit('newuser', `Welcome to Chat World..!!!`)
 
     // The same message, sent to all users - try it!
     //io.emit('newuser', data)
